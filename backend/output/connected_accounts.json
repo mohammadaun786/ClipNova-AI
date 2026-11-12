@@ -1,0 +1,19 @@
+{
+  "instagram": {
+    "connected": true,
+    "login_type": "credentials",
+    "username": "@red_rebel_001",
+    "account_id": null,
+    "access_token": null,
+    "has_password": true,
+    "connected_at": "2026-11-10T10:06:26.371183+00:00"
+  },
+  "youtube": {
+    "connected": true,
+    "channel_title": "YouTube Creator",
+    "channel_id": null,
+    "client_id": "test_yt_client_id_123",
+    "client_secret": "test_yt_secret",
+    "connected_at": "2026-11-10T10:01:09.172430+00:00"
+  }
+}
