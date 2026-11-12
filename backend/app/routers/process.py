@@ -104,8 +104,8 @@ def background_video_pipeline(job_id: str, input_path: str, title: str, subreddi
             )
 
         rendered_filename = Path(rendered_path).name
-        video_url = f"{settings.SERVER_HOST}/api/video/file/rendered/{rendered_filename}"
-        download_url = f"{settings.SERVER_HOST}/api/video/download/rendered/{rendered_filename}"
+        video_url = f"/api/video/file/rendered/{rendered_filename}"
+        download_url = f"/api/video/download/rendered/{rendered_filename}"
 
         job_store.update_job(
             job_id,
